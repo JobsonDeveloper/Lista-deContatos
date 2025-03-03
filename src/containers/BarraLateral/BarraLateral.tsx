@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Aside, ContainerAside } from './Styles'
 import FiltroButtons from '../../components/FiltroButtons/FiltroButtons'
 import { UserInput } from '../../Styles/Styles'

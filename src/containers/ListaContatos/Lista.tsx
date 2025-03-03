@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
 import { Container } from '../../Styles/Styles'
 import { ContatosLista, Item } from './Styles'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { RootReducer } from '../../store/store'
 import CadContato from '../../components/CardContato/CardContato'
 
 const Lista = () => {
   const { itens } = useSelector((state: RootReducer) => state.contatos)
-  const { termo, criterio, valor } = useSelector(
+  const { termo, criterio } = useSelector(
     (state: RootReducer) => state.filtro
   )
 

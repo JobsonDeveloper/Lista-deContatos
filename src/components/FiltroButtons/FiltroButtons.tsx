@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import { UserButton } from './Styles'
 import { useDispatch, useSelector } from 'react-redux'
 import { RootReducer } from '../../store/store'

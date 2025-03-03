@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from 'react'
+import { FormEvent, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { UserInput } from '../../Styles/Styles'
 import { ButtonCadastro, Form } from './Styles'

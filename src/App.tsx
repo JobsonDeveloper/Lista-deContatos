@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Provider } from 'react-redux'
 import store from './store/store'
 import { createBrowserRouter, RouterProvider } from 'react-router'

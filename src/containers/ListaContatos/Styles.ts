@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { UserInput } from '../../Styles/Styles'
 
 export const ContatosLista = styled.ul`
   display: flex;
